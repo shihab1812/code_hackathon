@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset_and_grids.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- CDN -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://use.fontawesome.com/01730a75ee.js"></script>
+</head>
+
+<body>
+    <!-- sidebar section -->
+    <aside class="col-lg-2 col-md-3" id="mail-siderbar-index">
+        <header class="text-center">
+            <button class="btn btn-lg btn-danger btn-block">
+                compose
+            </button>
+        </header>
+        <section id="mail-status">
+            <ul class="wrapper">
+                <li class="item active">
+                    <span class="icn span-left">
+                        <i class="fa fa-inbox" aria-hidden="true"></i>
+                    </span>
+                    <span class="label">
+                        Inbox
+                    </span>
+                    <span class="counter">
+                        <span class="counter-label active">8</span>
+                    </span>
+                </li>
+                <li class="item">
+                    <span class="icn span-left">
+                       <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </span>
+                    <span class="label">
+                        Starred
+                    </span>
+                    <span class="counter">
+                        
+                    </span>
+                </li>
+                <li class="item">
+                    <span class="icn span-left">
+                       <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                    </span>
+                    <span class="label">
+                        Sent
+                    </span>
+                    <span class="counter">
+                        
+                    </span>
+                </li>
+                <li class="item">
+                    <span class="icn span-left">
+                       <i class="fa fa-folder-open-o" aria-hidden="true"></i>
+                    </span>
+                    <span class="label">
+                        Drafts
+                    </span>
+                    <span class="counter">
+                         <span class="counter">
+                        <span class="counter-label">8</span>
+                    </span>
+                    </span>
+                </li>
+            </ul>
+        </section>
+        <hr class="dark">
+        <section id="mail-tags">
+
+            <ul class="wrapper">
+                <p class="main-heading">Labels</p>
+                <li class="item">
+                    <span class="radio-icn">
+                        <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                    </span>
+                    <span class="label">
+                        Work
+                    </span>
+                </li>
+                  <li class="item  active">
+                    <span class="radio-icn active">
+                        <i class="fa fa-circle text-success" aria-hidden="true"></i>
+                    </span>
+                    <span class="label">
+                        Fashion
+                    </span>
+                </li>
+                  <li class="item">
+                    <span class="radio-icn">
+                        <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                    </span>
+                    <span class="label">
+                        Animals
+                    </span>
+                </li>
+            </ul>
+        </section>
+        <hr class="dark">
+        <section id="profiler">
+            <div class="">
+                <div class="row-fluid">
+                    <div class="col-md-12 center-item text-center">
+                        <img src="https://randomuser.me/api/portraits/med/men/74.jpg" class="img-responsive img-circle" style="height:50px" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </aside>
+    <!-- sidebar section ends-->
+
+    <section class="mail-content-area col-lg-10 col-md-9">
+        <header>
+            <div class="container-fluid">
+                <div class="row page-head-wrp">
+                    <div class="col-md-8">
+                        <div class="page-header">
+
+                            <h1>
+                                Inbox
+
+                            </h1>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" id="search_rows" placeholder="search any mail" class="form-control input-lg pull-right">
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <section id="tabs">
+            <div class="row flex-end-center">
+                <div class="col-md-7">
+                    <ul class="list-inline mail-actions">
+                        <li><i class="fa fa-reply" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-heart" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-trash-o" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-angle-down" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <ul class="list-inline sort-emails-wrp pull-right">
+                        <li>Alphabetically</li>
+                        <li class="text-bold bor-bottom-red">Recent</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="all_mails">
+            <table class="table table-responsive table-hover" id="email-table">
+               
+                <tbody>
+
+                </tbody>
+            </table>
+        </section>
+
+
+    </section>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

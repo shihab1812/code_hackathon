@@ -1,0 +1,31 @@
+ 
+{
+    "emails":[{
+        "img": "http://placehold.it/35X35",
+        "sender_name": "shihab",
+        "subject": "street photography",
+        "time": "8:30 PM"
+    },
+    {
+        "img": "http://placehold.it/35X35",
+        "sender_name": "Praveen",
+        "subject": "Animals",
+        "time": "8:30 PM"
+    },
+    {
+        "img": "http://placehold.it/35X35",
+        "sender_name": "Andrew",
+        "subject": "street photography",
+        "time": "8:30 PM"
+    },
+    {
+        "img": "http://placehold.it/35X35",
+        "sender_name": "Mashal",
+        "subject": "Animals",
+        "time": "8:30 PM"
+    }
+    ],
+  "one": "Learned Optimism",
+  "two": "Deliberate Practice",
+  "three": "Getting Things Done"
+}
